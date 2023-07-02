@@ -1,0 +1,15 @@
+body {background-color:pink;
+    font-family: cursive, sans-serif, fantasy;}
+
+header {background-color: bisque;}
+
+h1{color: antiquewhite;}
+nav > ul {line-height: 3em;
+        list-style: circle;
+        padding-right: 5px;}
+
+section {background-color: blanchedalmond;
+        outline-width: medium;
+        font-style: italic}
+
+footer {background-color: beige}
