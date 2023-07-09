@@ -1,15 +1,39 @@
-body {background-color:pink;
-    font-family: cursive, sans-serif, fantasy;}
+body {margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+    background-color: antiquewhite;
+    color: darkred;}
 
-header {background-color: bisque;}
 
-h1{color: antiquewhite;}
-nav > ul {line-height: 3em;
-        list-style: circle;
-        padding-right: 5px;}
+section#leftColumn {float: left;
+    width:40%;}
 
-section {background-color: blanchedalmond;
-        outline-width: medium;
-        font-style: italic}
+section#rightColumn {float: right;
+    width: 50%;}
 
-footer {background-color: beige}
+nav a{float:inherit;
+display: inline-table;
+color: aliceblue;
+text-align: center;
+padding: 45px;
+text-decoration: none;
+background-color: darksalmon;
+font-size: 25PX;}
+
+
+nav a:hover{background-color: burlywood;
+outline-width: medium;
+font-style: italic;}
+
+header{font-size: 30px;
+text-align: center;
+color: darksalmon;}
+
+img{align-content: center;
+outline-color: darksalmon;}
+
+a:link{color: deeppink;}
+
+
